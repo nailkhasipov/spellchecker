@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.main p:focus {
+  outline-width: 0;
+}
